@@ -1,0 +1,15 @@
+{
+  "name": "security-training-bot",
+  "version": "1.0.0",
+  "description": "Bot educativ pentru a invata cum functioneaza modalurile si token safety",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.1"
+  }
+}
